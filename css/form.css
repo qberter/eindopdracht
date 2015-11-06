@@ -1,0 +1,100 @@
+/*
+
+    main form{
+        flex: 0 1 100%;
+        padding: 2em;
+        background: #fff;
+        box-shadow: 7px 7px 5px #888;
+    }
+    main form fieldset{
+        margin-bottom: 1em;
+    }
+    main form label{
+        width: 100%;
+        display: block;
+        position: relative;
+        margin-bottom: 1em;
+    }
+    main form label em{
+        position: absolute;
+        top: 1.5em;
+        right: 0;
+    }
+    main form label input, main form label textarea{
+        display: block;
+        width: 80%;
+    }
+    main form label input[type="radio"], main form label input[type="checkbox"]{
+        display: inline-block;
+        width: auto;
+    }
+*/
+
+
+
+main form{
+    flex: 0 1 100%;
+    padding: 2em;
+    background: #fff;
+    box-shadow: 7px 7px 5px #888;
+}
+fieldset {
+    border: none;
+}
+
+main form > fieldset {
+    width: 35rem;
+    padding: 2rem 2rem 2rem 4rem;
+    border: none;
+    border-radius: 1rem;
+    color: #000;
+}
+
+form > fieldset > legend {
+    font-size: 1.5em;
+    border: none;
+    font-style: oblique
+}
+
+fieldset > h1 {
+    padding-top: 1rem;
+    padding-bottom: .4rem;
+    font-style:oblique;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.disabled {
+    display: none;
+}
+
+
+input {
+    border-radius: .4rem;
+    height: 1.5rem;
+}
+
+
+main form label {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+main form label em {
+    font-size: .8em;
+    color: black;
+}
+
+main form label input,
+main form label textarea {
+    margin-top: 0.2rem;
+    display: block;
+    width: 80%;
+}
+
+main form label input[type="radio"],
+main form label input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
