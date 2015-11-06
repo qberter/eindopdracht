@@ -50,25 +50,25 @@ header p:first-of-type{
 }
 
 header h1:first-of-type{
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 /* Logo CMD */ 
 div > img{
-    width: 15%;
-    position: absolute;
-        top: 1.2rem;
-        left: 1rem;
+  width: 15%;
+  position: absolute;
+  top: 1.2rem;
+  left: 1rem;
 }
 /* Search */
 div > form{
-    position: absolute;
-        top: 6.5rem;
-        right: 1rem;
+  position: absolute;
+  top: 6.5rem;
+  right: 1rem;
 }
 /* Header img */
 header > img{
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 /* Header text */
 header .headerText h1{
@@ -86,23 +86,26 @@ header .headerText p{
 }
 /* Text background transparent */
 header .headerText span{
-   color: white; 
-   font: bold 24px/45px; 
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 3px; 
+ color: white; 
+ font: bold 24px/45px; 
+ background: rgb(0, 0, 0); /* fallback color */
+ background: rgba(0, 0, 0, 0.7);
+ padding: 3px; 
 }
 /* Button go to profile */
 header .headerText a{
-    margin: 2.8rem 0 1rem 0;
-    text-align: center;
-    background-color: #7e7e7e;
-    width: 18rem;
-    height: 3rem;
-    border-radius: .5rem;
-    padding: 1rem;
-    top: 265px;
-    display: inline-block;
+  margin: 2.8rem 0 1rem 0;
+  text-align: center;
+  background-color: #7e7e7e;
+  width: 18rem;
+  height: 3rem;
+  border-radius: .5rem;
+  padding: 1rem;
+  top: 265px;
+  display: inline-block;
+}
+header .headerText a:hover{
+  background-color: #000;
 }
 /* Text go to profile */
 header .headerText a{
@@ -354,6 +357,7 @@ p#feedback{
 
 /* 1200px 75em */
 @media all and (max-width:75em){
+
   header{
   background-color: #000
   }
@@ -467,6 +471,7 @@ p#feedback{
 }
 /* 720px 45em */
 @media all and (max-width:45em){
+
   aside{
     background-image: none;
     background-color: #ababab;

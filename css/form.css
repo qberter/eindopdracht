@@ -43,7 +43,7 @@ fieldset {
 }
 
 main form > fieldset {
-    width: 35rem;
+    max-width: 35rem;
     padding: 2rem 2rem 2rem 4rem;
     border: none;
     border-radius: 1rem;
@@ -86,15 +86,37 @@ main form label em {
     color: black;
 }
 
-main form label input,
-main form label textarea {
+main form label input, main form label textarea {
     margin-top: 0.2rem;
     display: block;
     width: 80%;
 }
 
-main form label input[type="radio"],
-main form label input[type="checkbox"] {
+main form label input[type="radio"], main form label input[type="checkbox"] {
     display: inline-block;
     width: auto;
+}
+aside{
+    width: 100%;
+}
+
+aside h2{
+    padding-top: 1em;
+}
+/* /////////////////////////////////////////////////////////////////
+
+                            Media queries
+
+///////////////////////////////////////////////////////////////// */
+
+
+/* 720px 45em */
+@media all and (max-width:45em){
+
+    main form{
+        padding: 0.5em;
+    }
+    main form > fieldset{
+        width: 25rem;
+    }
 }
