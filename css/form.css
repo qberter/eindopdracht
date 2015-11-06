@@ -36,7 +36,7 @@ main form{
     flex: 0 1 100%;
     padding: 2em;
     background: #fff;
-    box-shadow: 7px 7px 5px #888;
+    box-shadow: 3px 3px 4px #888;
 }
 fieldset {
     border: none;

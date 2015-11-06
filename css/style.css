@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-a[href$=".pdf"]:after { 
-  content: " (PDF)"; 
-}
-
 body{
     margin: 0;
     background-color: #F6F3ED; /*gray white*/
